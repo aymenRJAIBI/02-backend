@@ -31,10 +31,10 @@ public class Product {
     @Column(name = "description")
     private String description;
 
-    @Column(name = "unit_Price")
+    @Column(name = "unit_price")
     private BigDecimal unitPrice;
 
-    @Column(name = "imageUrl")
+    @Column(name = "image_url")
     private String imageUrl;
 
     @Column(name = "active")
@@ -47,7 +47,7 @@ public class Product {
     @CreationTimestamp
     private Date dateCreated;
 
-    @Column(name = "last-updated")
+    @Column(name = "last_updated")
     @UpdateTimestamp
     private Date lastUpdated;
 
